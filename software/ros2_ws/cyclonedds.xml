@@ -1,0 +1,24 @@
+<CycloneDDS>
+  <Domain id="any">
+    <General>
+      <Interfaces>
+        <NetworkInterface address="192.168.10.1"/>
+      </Interfaces>
+      <AllowMulticast>true</AllowMulticast>
+    </General>
+
+    <Discovery>
+      <ParticipantIndex>auto</ParticipantIndex>
+      <Peers>
+        <!-- Jetson Nano in ut-public -->
+        <Peer address="192.168.10.2"/>
+      </Peers>
+    </Discovery>
+
+    <Internal>
+      <Watermarks>
+        <WhcHigh>500kB</WhcHigh>
+      </Watermarks>
+    </Internal>
+  </Domain>
+</CycloneDDS>

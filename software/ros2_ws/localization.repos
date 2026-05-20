@@ -1,0 +1,13 @@
+repositories:
+  ndt_omp_ros2:
+    type: git
+    url: https://github.com/rsasaki0109/ndt_omp_ros2.git
+    version: humble
+  lidar_localization_ros2:
+    type: git
+    url: https://github.com/rsasaki0109/lidar_localization_ros2.git
+    version: main
+  jeep_driver:
+    type: git
+    url: https://github.com/kaisatal/jeep_driver.git
+    version: main

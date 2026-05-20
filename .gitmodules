@@ -1,0 +1,12 @@
+[submodule "software/ros2_ws/src/jeep_driver"]
+	path = software/ros2_ws/src/jeep_driver
+	url = git@github.com:kaisatal/jeep_driver.git
+[submodule "software/ros2_ws/src/lidar_localization_ros2"]
+	path = software/ros2_ws/src/lidar_localization_ros2
+	url = git@github.com:rsasaki0109/lidar_localization_ros2.git
+[submodule "software/ros2_ws/src/lidarslam_ros2"]
+	path = software/ros2_ws/src/lidarslam_ros2
+	url = git@github.com:rsasaki0109/lidar_slam_ros2.git
+[submodule "software/ros2_ws/src/ndt_omp_ros2"]
+	path = software/ros2_ws/src/ndt_omp_ros2
+	url = git@github.com:rsasaki0109/ndt_omp_ros2.git
